@@ -172,3 +172,21 @@ button{
     color: #f8765e;
     text-align: left;
   }
+
+  .launch{
+    font-size: 26px;
+    line-height: 1.73;
+    color: #cdcdcd;
+  }
+  .form2{
+    margin-top: 40px; 
+  }
+
+  footer{
+    margin-top: 100px;
+    padding: 40px 0 40px 0;
+  }
+
+  .rights{
+    padding-bottom: 20px;
+  }
