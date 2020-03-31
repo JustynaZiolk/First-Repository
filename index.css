@@ -126,9 +126,49 @@ button{
     margin-top: 60px;
     margin-bottom: 10px;
     font-size: 30px;
-    font-weight: bold;
     line-height: 1.33;
     color: #f8765e;
   }
 
+  h4{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.73;
+    color: #031d5b;
+    margin-bottom: 30px;
+  }
 
+  .premium-copy{
+    text-align: center;
+  }
+
+  .button-premium{
+    margin-top: 30px;
+  }
+
+  .testimonials{
+    margin: 100px 0 100px 0;
+}
+/*  para terminar en CSS - como posicionar los rectangulos
+.orange-rect{
+    width: 300px;
+    height: 660px;
+    border-radius: 20px;
+    background-color: #f8765e; */
+}
+
+  /* how to position it on the left? */
+.img4{
+    border: 1px solid black;
+    width: 151px;
+    height: 165px;
+    object-fit: contain;
+}
+
+  h5{
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #f8765e;
+    text-align: left;
+  }
