@@ -8,6 +8,10 @@ body{
     text-align: center;
 }
 
+h1{
+    padding-top: 25px;
+}
+
 .b-orange{
     background-color: #f8765e;
     color: white;
@@ -16,7 +20,33 @@ body{
 a{
     text-decoration: none;
     color: inherit;
-    margin: 0 8vw 0 8vw;
+    margin: 0 7vw 0 7vw;
+ 
+}
+
+#img1{
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.form{
+    margin-top: 30px;
+    padding-bottom: 140px;
 }
 
 .field{
@@ -31,10 +61,7 @@ a{
     padding-left: 25px;
     font-size: 17px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.18;
-    letter-spacing: normal;
     color: #cdcdcd;
 }
 
@@ -46,15 +73,62 @@ button{
     background-color: #9bdbe7;
     font-size: 20px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.25;
-    letter-spacing: normal;
-    text-align: center;
     color: #ffffff;
 }
 
-/* espacio entre el button y el field de email solo arriba y abajo */
+/* espacio entre el button y el field de email solo arriba */
 .button-space{
-    margin: 20px
+    margin-top: 20px
 }
+
+.b-white{
+    margin: -64px 10vw 100px 10vw;
+    border-radius: 20px;
+    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+.img2{
+    margin-top: 60px;
+    width: 208px;
+    height: 140px;
+    object-fit: contain;
+  }
+
+.title1{
+    width: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.39;
+    color: #031d5b;
+    text-align: left;
+    margin: 60px 5vw 20px 5vw;
+    border-bottom: 5px solid #f8765e;
+    padding-bottom: 15px;
+}
+
+.benefits-copy{
+    margin: 0 5vw 0 5vw;
+    text-align: left;
+    color: #5b6c94
+}
+
+/* how can I make it smaller but responsive? And how to add the circle?*/
+/* .img3{
+    width: 180px;
+    height: 360px;
+    object-fit: contain;
+  } */
+
+  h3{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #f8765e;
+  }
+
+
