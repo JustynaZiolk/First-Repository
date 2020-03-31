@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.b-orange{
+    background-color: #f8765e;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    margin: 0 8vw 0 8vw;
+}
