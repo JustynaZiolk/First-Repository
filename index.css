@@ -18,3 +18,43 @@ a{
     color: inherit;
     margin: 0 8vw 0 8vw;
 }
+
+.field{
+    width: 335px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+
+::placeholder{
+    padding-left: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #cdcdcd;
+}
+
+button{
+    width: 168px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+    background-color: #9bdbe7;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* espacio entre el button y el field de email solo arriba y abajo */
+.button-space{
+    margin: 20px
+}
