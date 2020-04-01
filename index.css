@@ -196,15 +196,18 @@ h5{
 }
 
 .orange-rect{
-    width: 400px;
+    width: 300px;
     height: 660px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: #f8765e;
     margin: -55px 0 0 17vw;
     position: absolute;
     z-index: -1;
-
 }
+
+/*     border-radius: 20px; */
+
 
 .blue-rect{
   text-align: left;
@@ -377,6 +380,8 @@ h5{
   .orange-rect{
     width: 810px;
     height: 700px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 
   #rectangulos-linia{
