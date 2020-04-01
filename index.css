@@ -175,8 +175,6 @@ button{
   .testimonials{
     margin: 100px 0 100px 5vw;
     height: 785px;
-    border: 1px solid black;
-
 }
 
 #testimonials-title{
@@ -192,6 +190,7 @@ h5{
     line-height: 2;
     color: #f8765e;
     text-align: left;
+    padding-top: 2vh;
     margin: 2vh 0 0 3vw;
 }
 
@@ -243,16 +242,17 @@ h5{
 
 .testimony-name{
   margin-top: 78px;
-}∫
+}
 
 /* ----------------------Subscribe Section-------------------- */
 
 .launch{
-    font-size: 26px;
-    line-height: 1.73;
-    color: #cdcdcd;
-  }
-  
+  font-size: 26px;
+  line-height: 1.73;
+  color: #cdcdcd;
+}
+
+
   .form2{
     margin-top: 40px; 
   }
@@ -267,3 +267,5 @@ h5{
   .rights{
     padding-bottom: 20px;
   }
+
+  
