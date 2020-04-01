@@ -173,39 +173,86 @@ button{
   /* ------------------------- Testimonials---------------------*/
 
   .testimonials{
-    margin: 100px 0 100px 0;
-}
-.orange-rect{
-    width: 300px;
-    height: 660px;
-    border-radius: 20px;
-    background-color: #f8765e;
-}∫
-
-  /* how to position it on the left? */
-.img4{
+    margin: 100px 0 100px 5vw;
+    height: 785px;
     border: 1px solid black;
+
 }
-/* I tried to put the sign as backgroun image but i couldn't */
-  h5{
+
+#testimonials-title{
     background-image: url(./images/img_6-quotation_mark/quote.png);
     background-repeat: no-repeat;
     width: 151px;
     height: 165px;
+    margin: 0 0 0 2vw;
+}
+
+h5{
     font-size: 16px;
-    line-height: 1.25;
+    line-height: 2;
     color: #f8765e;
     text-align: left;
-  }
+    margin: 2vh 0 0 3vw;
+}
 
-  /* ----------------------Subscribe Section-------------------- */
+.orange-rect{
+    width: 400px;
+    height: 660px;
+    border-radius: 20px;
+    background-color: #f8765e;
+    margin: -55px 0 0 17vw;
+    position: absolute;
+    z-index: -1;
 
-  .launch{
+}
+
+.blue-rect{
+  text-align: left;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+  background-color: #9bdbe7;
+  margin: 10vh 0 0 5vw;
+}
+
+/* thia is hidden to be shown in web */
+/*   display: none; */
+.white-rect{
+  display: none;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.img4{
+  width: 49px;
+  height: 40px;
+  margin: 80px 0 0 50px;
+}
+
+.testimony-copy{
+  font-size: 18px;
+  line-height: 2;
+  margin: 23px 60px 0 50px;
+}
+
+.copy-white{
+  color: white;
+}
+
+.testimony-name{
+  margin-top: 78px;
+}∫
+
+/* ----------------------Subscribe Section-------------------- */
+
+.launch{
     font-size: 26px;
     line-height: 1.73;
     color: #cdcdcd;
   }
-
+  
   .form2{
     margin-top: 40px; 
   }
